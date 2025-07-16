@@ -42,20 +42,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "alex@example.com",
-      link: "mailto:alex@example.com"
+      value: "diazsuyanto27@gmail.com",
+      link: "mailto:diazsuyato27@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "0838-6992-4626",
+      link: "tel:+0838-6992-4626"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
-      link: "#"
+      value: "Tangerang, Indonesia",
+      link: "https://www.google.com/search?client=opera-gx&q=tangerang+indonesia&sourceid=opera&ie=UTF-8&oe=UTF-8"
     }
   ];
 
@@ -63,20 +63,20 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com",
-      handle: "@alexjohnson"
+      url: "https://github.com/cyf1xpop",
+      handle: "@cyf1xpop"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com",
-      handle: "Alex Johnson"
+      url: "https://www.linkedin.com/in/diaz-restu-suyanto-765033346/",
+      handle: "Diaz Restu Suyanto"
     },
     {
       icon: Twitter,
       name: "Twitter",
       url: "https://twitter.com",
-      handle: "@alexjohnson"
+      handle: "@cyf1xpop"
     }
   ];
 
@@ -109,7 +109,7 @@ const Contact = () => {
                       required
                       value={formData.name}
                       onChange={handleInputChange}
-                      placeholder="Your name"
+                      placeholder="Diaz restu suynato"
                       className="transition-smooth focus:ring-2 focus:ring-primary/20"
                     />
                   </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                       required
                       value={formData.email}
                       onChange={handleInputChange}
-                      placeholder="your@email.com"
+                      placeholder="diazsuyanto27@gmail.com"
                       className="transition-smooth focus:ring-2 focus:ring-primary/20"
                     />
                   </div>
