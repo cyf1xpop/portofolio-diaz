@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="animate-slide-up">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="text-white">Hi, I'm </span>
-            <span className="text-white">Diaz Restu suyanto</span>
+            <span className="text-white">Diaz Restu Suyanto</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
             Full Stack Developer & UI/UX Designer passionate about creating beautiful, 
@@ -57,15 +57,15 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/cyf1xpop" target="_blank" rel="noopener noreferrer" 
                className="text-gray-300 hover:text-white transition-smooth hover-lift">
               <Github className="h-6 w-6" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/diaz-restu-suyanto-765033346/" target="_blank" rel="noopener noreferrer"
                className="text-gray-300 hover:text-white transition-smooth hover-lift">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="mailto:alex@example.com"
+            <a href="mailto:diazsuyanto27@gmail.com"
                className="text-gray-300 hover:text-white transition-smooth hover-lift">
               <Mail className="h-6 w-6" />
             </a>

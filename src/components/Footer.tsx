@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:alex@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/cyf1xpop.", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/diaz-restu-suyanto-765033346/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:diazsuyanto27@gmail.com", label: "Email" },
   ];
 
   const quickLinks = [
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gradient">Alex Johnson</h3>
+            <h3 className="text-xl font-bold text-gradient">Diaz Restu Suyanto</h3>
             <p className="text-muted-foreground leading-relaxed">
               Full Stack Developer & UI/UX Designer passionate about creating 
               beautiful, functional web experiences.
@@ -72,16 +72,16 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold">Get In Touch</h4>
             <div className="space-y-2">
-              <p className="text-muted-foreground">alex@example.com</p>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
-              <p className="text-muted-foreground">San Francisco, CA</p>
+              <p className="text-muted-foreground">diazsuyanto27@gmail.com</p>
+              <p className="text-muted-foreground">+623869924626</p>
+              <p className="text-muted-foreground">Tangerang, Indonesia</p>
             </div>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Alex Johnson. All rights reserved.
+            © {currentYear} Diaz restu suyanto. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center mt-2 md:mt-0">
             Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> using React & TypeScript
