@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="animate-slide-up">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="text-white">Hi, I'm </span>
-            <span className="text-gradient">Alex Johnson</span>
+            <span className="text-gradient">Diaz Restu Suyanto</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
             Full Stack Developer & UI/UX Designer passionate about creating beautiful, 
