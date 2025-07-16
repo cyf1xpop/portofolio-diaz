@@ -1,5 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import InteractiveBackground from './InteractiveBackground';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -12,16 +13,19 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="min-h-screen flex items-center justify-center relative overflow-hidden hero-gradient"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
+      {/* Interactive Background */}
+      <InteractiveBackground />
+
       {/* Animated background elements */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 rounded-full bg-primary/30 animate-float"></div>
-        <div className="absolute top-3/4 right-1/4 w-24 h-24 rounded-full bg-glow-soft/30 animate-float" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/2 left-3/4 w-20 h-20 rounded-full bg-primary/20 animate-float" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute inset-0 opacity-20 z-20">
+        <div className="absolute top-1/4 left-1/4 w-32 h-32 rounded-full bg-white/20 animate-float"></div>
+        <div className="absolute top-3/4 right-1/4 w-24 h-24 rounded-full bg-white/15 animate-float" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/2 left-3/4 w-20 h-20 rounded-full bg-white/10 animate-float" style={{ animationDelay: '2s' }}></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-30">
         <div className="animate-slide-up">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="text-white">Hi, I'm </span>
